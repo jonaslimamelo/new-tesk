@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/6985001/pexels-photo-6985001.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-6985001.jpg&fm=jpg');
+  background-size: cover;
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 550px;
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.Login {
+  margin-top: 45px;
+  font-size: 3.5rem;
+  opacity: 0.8;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-box {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.input-box > label {
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  font-weight: 100;
+}
+
+#userName {
+  width: 350px;
+  border: none;
+  padding: 10px;
+  border-bottom: 2px solid  #e0e0eb;
+  outline: none;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.container-input > i {
+  opacity: 0.4;
+}
+
+#password {
+  width: 350px;
+  border: none;
+  padding: 10px;
+  border-bottom: 2px solid  #e0e0eb;
+  outline: none;
+  font-size: 19px;
+  font-weight: 600;
+}
+.text-password {
+  font-size: 15px;
+  opacity: 0.9;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.text-password:hover {
+  color: #ff80ff;
+}
+
+.btn-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 350px;
+  height: 45px;
+  border: none;
+  border-radius: 50px;
+  background-color: #ff1aff;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.button:hover {
+  background-color: #7300e6;
+}
+
+.btn-login P {
+  margin-top: 30px;
+  opacity: 0.9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.media-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.media-social #facebook {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #3b5998;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.media-social #instagram {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.media-social #linkedin {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #0e76a8;
+  color: #fff;
+  border: 1px solid #fff;
+  text-decoration: none;
+  transition: .4s;
+}
+
+#facebook:hover {
+  opacity: 0.9;
+}
+
+#instagram:hover {
+  opacity: 0.9;
+}
+
+#linkedin:hover {
+  opacity: 0.9;
+}
+
+.Sign {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Sign h2 {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Sign p {
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.Sign p:hover {
+ color: #ff1aff
+}
+
+@media screen and (max-widht: 768px) {
+  span {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-widht: 768px) {
+  .container-text {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-widht: 768px) {
+  .container-password {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-widht: 768px) {
+  .container {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>New tesk</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1 class="Login">Login</h1>
+
+    <div class="input-box">
+      <label for="userName">
+        UserName
+        <div class="container-input">
+          <i class="fa fa-user"></i>
+          <input id="userName" type="name" placeholder="type your name" />
+        </div>
+      </label>
+    </div>
+
+    <div class="input-box">
+      <label for="password">
+        Password
+        <div class="container-input">
+          <i class="fa fa-lock"></i>
+          <input id="password" type="password" placeholder="type your password" />
+        </div>
+      </label>
+    </div>
+
+    <span class="text-password">Forgot password?</span>
+    <div class="btn-login">
+      <button onclick="buttonLogin()" class="button">Login</button>
+      <p>Or Sign Up Using</p>
+    </div>
+
+    <div class="media-social">
+      <a href="#"><i class="fa fa-facebook" id="facebook"></i> </a>
+      <a href="#"><i class="fa fa-instagram" id="instagram"></i> </a>
+      <a href="#"><i class="fa fa-linkedin" id="linkedin"></i> </a>
+    </div>
+
+    <div class="Sign">
+      <h2>Or Sign Up Using</h2>
+      <p>SIGN UP</p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
